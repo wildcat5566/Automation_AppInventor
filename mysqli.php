@@ -1,5 +1,4 @@
 <?php
-phpinfo();
 $link = mysqli_connect("localhost", "newuser", "lab301", "newdb");
 
 if (!$link) {
@@ -11,6 +10,8 @@ if (!$link) {
 
 echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
 echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
+
+phpinfo();
 
 mysqli_close($link);
 ?>
