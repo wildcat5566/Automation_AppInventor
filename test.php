@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "newuser", "lab301", "newdb");
+$link = mysqli_connect("localhost", "root", "raspberrypi", "newdb");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;

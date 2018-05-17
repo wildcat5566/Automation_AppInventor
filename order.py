@@ -1,6 +1,6 @@
 import pymysql
 import serial
-db = pymysql.connect("localhost","newuser","lab301","newdb")
+db = pymysql.connect("localhost","root","raspberrypi","newdb")
 cursor = db.cursor()
 
 cursor.execute("SELECT id, color FROM Client_info WHERE color != 0")

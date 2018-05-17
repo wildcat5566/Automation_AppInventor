@@ -1,0 +1,19 @@
+packages php5 instead of php
+
+sudo /etc/init.d mysql stop
+sudo dpkg-reconfigure mysql-configure-5.5
+sudo /etc/init.d mysql start
+
+sudo before cp for php files.
+
+sudo before pip3
+
+php5-mysql
+
+nano mysqli.php before sudo cp
+
+sudo nano /etc/mysql/my.cnf
+
+forgot to sudo cp test.php
+
+change mysql id and psk before cp ing
